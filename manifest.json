@@ -16,13 +16,13 @@
     ],
     "action": {
         "default_icon": {
-            "16": "BrainTool16.png"
+            "16": "hn.png"
         },
         "default_title" : "HackerNew",
         "default_popup" : "hn.html"
     },
     "icons": {
-      "16": "BrainTool16.png"
+      "16": "hn.png"
     },
     "commands": {
         "_execute_browser_action": {

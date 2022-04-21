@@ -2,8 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="hn.css" />
   </head>
   <body>
-    <h1>HackerNew</h1>
+    <h1 id="header">HackerNew</h1>
+    
+    <div id="saveCheckboxes">
+      <span id="openSpan">
+        <input type="checkbox" id="openT" name="openT" checked>
+        <label for="openT">Open stories in new tab</label>
+      </span>
+      <span id="faviconSpan">
+        <input type="checkbox" id="favicons" name="favicons">
+        <label for="favicons">Show favicons</label>
+      </span>
+    </div>
+    <hr/>
+    <p>HackerNew adds a 'hideAll' control to the top bar on HackerNews so you can see a fresh set of stories whenever you visit. It also optionally opens stories in a new tab and adds web site favicons.</p>
+    <hr/>
+    <h2>HackerNew works great with tab groups in <a href="https://braintool.org" target="_blank">BrainTool</a></h2>
+    <script defer src="hn.js"></script>
   </body>
 </html>
